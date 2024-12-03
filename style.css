@@ -1,0 +1,236 @@
+body{
+    background-color: rgb(216, 216, 216);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.signup-header{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.header-bio{
+    font-size: 12px;
+    color: rgb(167, 167, 167);
+    margin-bottom: 18px;
+}
+.t-container-div svg{
+    width: 23px;
+    height: 23px;
+    background-color: rgb(92, 171, 245);
+    padding: 8px 10px;
+    vertical-align: middle;
+    -webkit-user-drag: none;
+}
+.t-container-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 10px;
+    transition: opacity 0.15s;
+}
+.t-container-div:hover{
+    opacity: 0.8;
+}
+.t-container-div:active{
+    opacity: 0.6;
+}
+.t-icon-association{
+    background-color: rgb(84, 168, 238);
+    padding: 11px 18px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.f-container-div svg{
+    width: 23px;
+    height: 23px;
+    background-color: rgb(62, 107, 231);
+    padding: 8px 10px;
+    vertical-align: middle;
+    -webkit-user-drag: none;
+}
+
+.f-container-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+}
+.f-container-div:hover{
+    opacity: 0.8;
+}
+.f-container-div:active{
+    opacity: 0.6;
+}
+.f-icon-association{
+    background-color: rgb(45, 107, 201);
+    padding: 11px 18px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.r-container-div svg{
+    width: 23px;
+    height: 23px;
+    background-color: rgb(255, 62, 48);
+    padding: 8px 10px;
+    vertical-align: middle;
+    -webkit-user-drag: none;
+}
+
+.r-container-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 10px;
+    transition: opacity 0.15s;
+}
+.r-container-div:hover{
+    opacity: 0.8;
+}
+.r-container-div:active{
+    opacity: 0.6;
+}
+.r-icon-association{
+    background-color: rgb(250, 76, 33);
+    padding: 11px 18px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.goto-apps-div{
+    display: flex;
+}
+.main-div{
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 35px;
+    padding-bottom: 30px;
+}
+hr{
+    border-color: rgba(245, 245, 245, 0.308);
+    margin-bottom: 20px;
+}
+.or-sign{
+    font-size: 13px;
+    color: rgb(167, 167, 167);
+    margin-bottom: 15px;
+}
+.using-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+
+}
+.user, .email, .password{
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+.input-boxes{
+    width: 100%;
+    height: 30px;
+    padding-left: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 2px;
+    transition: box-shadow 0.15s, border 0.15s;
+}
+.input-boxes:focus{
+    border: 1px solid rgb(19, 200, 255);
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(19, 200, 255, 0.35);
+}
+
+.user img, .email img, .password img{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 10px;
+    opacity: 0.2;
+    -webkit-user-drag: none;
+}
+main{
+    margin-bottom: 20px;
+}
+footer{
+    display: flex;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.create{
+    padding: 10px 14px;
+    border: none;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    margin: 0;
+    vertical-align: top;
+    cursor: pointer;
+}
+.create-arrow{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 40px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+}
+.create-account-container{
+    transition: opacity 0.15s;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.create-account-container:hover{
+    opacity: 0.7;
+}
+.create-account-container:active{
+    opacity: 0.5;
+}
